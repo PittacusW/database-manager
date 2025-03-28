@@ -1,0 +1,1 @@
+<md-progress-linear md-mode="@{{ $root.viewLoading ? 'indeterminate' : 'determinate' }}" value="@{{ $root.viewLoading ? null : 100 }}" style="height: 3px;"></md-progress-linear>
